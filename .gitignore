@@ -11,8 +11,8 @@
 # Include directories (needed for git to traverse subdirectories)
 !*/
 
-# Include directories (needed for git to traverse subdirectories)
-!app_documentation.md
+# Include README.me
+!README.md
 
 # Ignore specific folders completely (even .py and .ipynb files inside)
 Old/
