@@ -1,0 +1,35 @@
+# Ignore everything by default
+*
+
+# But include Python and Jupyter notebook files
+!*.py
+!*.ipynb
+
+# Include .gitignore itself
+!.gitignore
+
+# Include directories (needed for git to traverse subdirectories)
+!*/
+
+# Include directories (needed for git to traverse subdirectories)
+!app_documentation.md
+
+# Ignore specific folders completely (even .py and .ipynb files inside)
+Old/
+
+# Common exclusions even for .py and .ipynb
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+ENV/
